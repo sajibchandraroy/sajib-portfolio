@@ -1,0 +1,45 @@
+.headerBackground{
+    background: url('../../images/canvas-slate.jpg');
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%);
+    padding-top: 9%;
+}
+
+.navbar{
+    background: url('../../images/canvas-slate.jpg');
+    width: 100%;
+        position: fixed;
+        top: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        z-index: 99; 
+}
+.navbar li{
+    color: white;
+    font-size: 20px;
+}
+.highlight-text{
+    color: #74b9ff;
+}
+.social-media .icon{
+height: 50px;
+width: 50px;
+color: #74b9ff;
+/* border-radius:50%; */
+/* border: 1px solid #74b9ff; */
+padding: 5px;
+/* font-size: 20px; */
+}
+.social-media .icon:hover{
+color: white;
+/* background-color: white; */
+}
+.nav-link mr-4  text-white:before {
+    content: "hii";
+    position: absolute;
+    top:110%
+    /* left:0;
+    width: 0; */
+
+    /* border-bottom: 2px solid #4458dc;
+    transition: all .4s linear; */
+}
